@@ -1,0 +1,129 @@
+@media screen and (max-width:1200px) {
+    .container {
+        width: 90%;
+    }
+    .container2 {
+        width: 80%;
+    }
+    .app__yellow {
+        display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+    .title {
+        font-size: 42px;
+    }
+    
+    .subtitle, .how__block, .rules__green__text, .rules__plus__text {
+        font-size: 24px;
+    }
+    .app {
+        &__form {
+            flex-wrap: wrap;
+            &__input {
+                margin-bottom: 10px;
+            }
+        }
+        
+    }
+    .how {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__arrow {
+            display: none;
+        }
+    }
+    .slider {
+        &__video {
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .slider {
+        &__video {
+            width: 100%;
+        }
+    }
+    .rules {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 100%;
+        }
+        &__green {
+            width: auto;
+            padding: 10px;
+        }
+        &__wrap {
+            padding: 10px;
+            transform: translateY(0);
+        }
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        flex-direction: column;
+        background: rgba(33, 32, 31, .85);
+        padding: 40px;
+        z-index: 10;
+        height: 70vh;
+        &__item {
+            margin-bottom: 20px;
+            a {
+                color: #FFF;
+            }
+        }
+        &_active {
+            right: 0;
+        }
+    }
+    .hamburger {
+        display: flex;
+    }
+    .header {
+        &__wrapper {
+            justify-content: flex-start;
+        }
+    }
+    .logo {
+        margin-right: 30px;
+    }
+    .tns-nav {
+        width: 290px;
+    }
+    .how {
+        &__block {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:525px) {
+    .app {
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+        &__content {
+            width: 100%;
+        }
+        &__photo {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+    .promo__subtitle__text {
+        font-size: 30px;
+    }
+    .promo__subtitle {
+        img {
+            top: -16px;
+        }
+    }
+    .promo__text {
+        font-size: 32px;
+        margin-top: 0;
+    }
+}

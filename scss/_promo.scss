@@ -1,0 +1,42 @@
+.promo {
+    margin-top: 125px;
+    &__img {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 72px;
+        img {
+            width: 100%;
+        }
+    }
+    &__text {
+        font-size: 36px;
+        font-weight: 700;
+        max-width: 548px;
+        line-height: 110%;
+        margin-top: -82px;
+    }
+    &__btn {
+        margin-top: 32px;
+        padding: 19px 59px;
+        border-radius: 24px;
+        font-size: 24px;
+        height: 80px;
+        width: 361px;
+    }
+    &__subtitle {
+        position: relative;
+        margin-top: 72px;
+        &__text {
+            font-size: 64px;
+            color: #fff;
+            font-weight: 700;
+        }
+        img {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            z-index: -1;
+            width: 96%;
+        }
+    }
+}

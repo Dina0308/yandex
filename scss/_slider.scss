@@ -1,0 +1,37 @@
+.slider {
+   &__video {
+       width: 734px;
+       border-radius: 20px;
+    }
+    &__div {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__wrap {
+        display: flex;
+        justify-content: flex-end;
+    }
+    position: relative;
+    z-index: 3;
+   
+}
+.tns-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 292px;
+    margin-top: 24px;
+    &-active {
+        background-color: #000;
+    }
+    button {
+        background-color: rgba(33, 32, 31, 0.5);
+        border: none;
+        width: 9px;
+        height: 9px;
+        border-radius: 100%;
+        margin: 0 3px;
+    }
+    button.tns-nav-active {
+        background-color: #000;
+    }
+}

@@ -1,0 +1,69 @@
+.app {
+    background: #fff;
+    padding-top: 128px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        width: 50%;
+    }
+    &__photo {
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+        &__img {
+            width: 70%;
+            display: block;
+            margin: 0 auto;
+            z-index: 2;
+            position: relative;
+        }
+        position: relative;
+    }
+    &__black {
+        background: #21201f;
+        border-radius: 56px 56px 0 0;
+        width: calc(100% + 25%);
+        height: 30%;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .title {
+        width: 50%;
+
+    }
+   &__form {
+       margin-top: 48px;
+       display: flex;
+       justify-content: flex-start;
+       &__input {
+           width: 197px;
+           height: 49px;
+           padding-left: 15px;
+           font-size: 20px;
+           margin-right: 7px;
+       }
+   }
+   .btn {
+       background: #ffde40;
+       color: $text-color;
+       width: 151px;
+       padding: 0;
+       cursor: pointer;
+       &:hover {
+           background: rgba(255,222,64, .7);
+       }
+   }
+   &__yellow {
+       background: #ffde40;
+       border-radius: 56px 56px 0 0;
+       width: 100%;
+       position: absolute;
+       bottom: 0;
+       height: 20%;
+   }
+   
+}
